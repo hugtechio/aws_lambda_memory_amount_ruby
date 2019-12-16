@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'aws_lambda_memory_amount'
+
+puts AwsLambdaMemoryAmount.list_lambda_memory_amount
